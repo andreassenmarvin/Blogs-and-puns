@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bloggers</title>
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon"
+        href="https://icons-for-free.com/iconfiles/png/512/blogs+web+icon-1320186918456831135.png">
+
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="./css/all.css">
 
@@ -26,7 +30,8 @@
     <nav class="nav">
         <div class="nav-menu flex-row">
             <div class="nav-brand">
-                <a href="#" class="text-gray">BloggersParlour</a>
+                <a href="index.html" class="text-gray" style="text-align: center;">Entertainment<span
+                        style="color: #207491; letter-spacing: 0.03em;">Parlour</span></a>
             </div>
             <div class="toggle-collapse">
                 <div class="toggle-icons">
@@ -61,15 +66,80 @@
         </div>
     </nav>
 
+    <!-- Header -->
     <main>
         <section class="site-title">
             <div class="site-background" data-aos="fade-up" data-aos-delay="100">
-                <h3>Tours & Travels</h3>
-                <h1>Amazing Place on Earth</h1>
-                <button class="btn">Explore</button>
+                <h1>BLOGS AND PUNS</h1>
+                <br />
+                <br />
+                <h3>Have fun with our most enertainining of activities  </h3>
+                <a href="#blog"><button class="btn">Explore</button></a>
+            </div>
+        </section>
+
+
+        <!-- Blog carousel -->
+        <section>
+            <div class="blog" id="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-1.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3> As in “You go grill!” and “Grill power!”</h3>
+                                <button class="btn btn-blog">Food</button>
+                                <span>2 minutes ago</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-3.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>I’m thinking about throwing a space themed party, but I'm not sure how to plan it.
+                                </h3>
+                                <button class="btn btn-blog">Entertainment</button>
+                                <span>2 minutes ago</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-2.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>What made the can crushing machine quit its job? The work was soda-pressing.</h3>
+                                <button class="btn btn-blog">Business</button>
+                                <span>2 minutes ago</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-5.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Been driving a day. I need a brake!</h3>
+                                <button class="btn btn-blog">Travel</button>
+                                <span>2 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+
+
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
