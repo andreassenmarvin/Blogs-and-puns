@@ -388,10 +388,10 @@ main .post-content .post-title a {
 }
 
 #subscribe-success {
-    text-align: center; 
-    background: var(--sky); 
-    color: black; 
-    border: 1px solid transparent; 
+    text-align: center;
+    background: var(--sky);
+    color: black;
+    border: 1px solid transparent;
     padding: 10px;
 }
 
