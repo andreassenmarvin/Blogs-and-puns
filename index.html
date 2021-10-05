@@ -44,13 +44,13 @@
                         <a href="#">Home</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#category">Category</a>
+                        <a href="#category">Categories</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Archive</a>
+                        <a href="#blogs">Blogs</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Pages</a>
+                        <a href="#newsletter">Newsletter</a>
                     </li>
                     <li class="nav-link">
                         <a href="#">Contact Us</a>
@@ -82,7 +82,7 @@
         <!-- Blog carousel -->
         <section>
             <div class="blog" id="blog">
-                <div class="container">
+                <div class="container" id="category">
                     <div class="owl-carousel owl-theme blog-post">
                         <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
                             <img src="./assets/Blog-post/post-1.jpg" alt="post-1">
@@ -129,7 +129,7 @@
         <!-- Blog carousel -->
         <!-- Site Content -->
         <section class="container">
-            <div class="site-content">
+            <div class="site-content" id="blogs">
                 <div class="posts">
                     <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                         <div class="post-image">
@@ -263,7 +263,7 @@
                     </div>
                 </div>
                 <aside class="sidebar">
-                    <div class="category" id="category">
+                    <div class="category">
                         <h2 style="text-align: center;">Category</h2>
                         <ul class="category-list">
                             <li class="list-items" data-aos="fade-left" data-aos-delay="100">
@@ -368,13 +368,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                    <div class="newsletter" id="newsletter" data-aos="fade-up" data-aos-delay="300">
                         <h2 style="text-align: center;">Newsletter</h2>
                         <p id="subscribe-success">You have successfully subscribed to our newsletter</p>
                         <div class="form-element">
                             <form class="subscribe-form">
-                            <input type="email" class="input-element" placeholder="Email" required>
-                            <button type="submit" class="btn form-btn" id="subscribe-btn">Subscribe</button>
+                                <input type="email" class="input-element" placeholder="Email" required>
+                                <button type="submit" class="btn form-btn" id="subscribe-btn">Subscribe</button>
                             </form>
                         </div>
                     </div>
@@ -397,17 +397,23 @@
     </main>
 
     <footer class="footer">
-        <div class="container" style="display: flex;">
+        <div class="container">
             <div class="about-us" data-aos="fade-right" data-aos-delay="200">
                 <h2>About us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia atque nemo ad modi officiis
                     iure, autem nulla tenetur repellendus.</p>
             </div>
-            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
-                <h2>Newsletter</h2>
-                <p>Stay update with our latest</p>
-                <div class="form-element">
-                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card3.png" alt="insta1">
+                    <img src="./assets/instagram/thumb-card4.png" alt="insta2">
+                    <img src="./assets/instagram/thumb-card5.png" alt="insta3">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card6.png" alt="insta4">
+                    <img src="./assets/instagram/thumb-card7.png" alt="insta5">
+                    <img src="./assets/instagram/thumb-card8.png" alt="insta6">
                 </div>
             </div>
             <div class="follow" data-aos="fade-left" data-aos-delay="200">
@@ -423,9 +429,7 @@
         </div>
         <div class="rights flex-row">
             <h4 class="text-gray">
-                Copyright ©2019 All rights reserved | made by
-                <a href="www.youtube.com/c/dailytuition" target="_black">Daily Tuition <i class="fab fa-youtube"></i>
-                    Channel</a>
+                Copyright ©2021 All rights reserved | made by Marvin Macharia
             </h4>
         </div>
         <div class="move-up">
