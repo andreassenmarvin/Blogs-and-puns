@@ -34,6 +34,24 @@ $(document).ready(function () {
         responsive: responsive
     });
 
+    //Read more toggle
+    $("#photo-blog-toggle").hide();
+
+    $("#photo-blog-btn").click(function () {
+        $("#photo-blog-toggle").fadeToggle();
+    })
+
+    $("#road-blog-toggle").hide();
+
+    $("#road-blog-btn").click(function () {
+        $("#road-blog-toggle").fadeToggle();
+    })
+
+    $("#marine-blog-toggle").hide();
+
+    $("#marine-blog-btn").click(function () {
+        $("#marine-blog-toggle").fadeToggle();
+    })
 
     // click to scroll top
     $('.move-up span').click(function () {
