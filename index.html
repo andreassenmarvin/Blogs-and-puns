@@ -369,10 +369,13 @@
                         </div>
                     </div>
                     <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
-                        <h2>Newsletter</h2>
+                        <h2 style="text-align: center;">Newsletter</h2>
+                        <p id="subscribe-success">You have successfully subscribed to our newsletter</p>
                         <div class="form-element">
-                            <input type="text" class="input-element" placeholder="Email">
-                            <button class="btn form-btn">Subscribe</button>
+                            <form class="subscribe-form">
+                            <input type="email" class="input-element" placeholder="Email" required>
+                            <button type="submit" class="btn form-btn" id="subscribe-btn">Subscribe</button>
+                            </form>
                         </div>
                     </div>
                     <div class="popular-tags">
@@ -394,7 +397,7 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
+        <div class="container" style="display: flex;">
             <div class="about-us" data-aos="fade-right" data-aos-delay="200">
                 <h2>About us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia atque nemo ad modi officiis
@@ -405,19 +408,6 @@
                 <p>Stay update with our latest</p>
                 <div class="form-element">
                     <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
-                </div>
-            </div>
-            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
-                <h2>Instagram</h2>
-                <div class="flex-row">
-                    <img src="./assets/instagram/thumb-card3.png" alt="insta1">
-                    <img src="./assets/instagram/thumb-card4.png" alt="insta2">
-                    <img src="./assets/instagram/thumb-card5.png" alt="insta3">
-                </div>
-                <div class="flex-row">
-                    <img src="./assets/instagram/thumb-card6.png" alt="insta4">
-                    <img src="./assets/instagram/thumb-card7.png" alt="insta5">
-                    <img src="./assets/instagram/thumb-card8.png" alt="insta6">
                 </div>
             </div>
             <div class="follow" data-aos="fade-left" data-aos-delay="200">

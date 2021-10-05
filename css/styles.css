@@ -387,6 +387,20 @@ main .post-content .post-title a {
     font-size: 1rem;
 }
 
+#subscribe-success {
+    text-align: center; 
+    background: var(--sky); 
+    color: black; 
+    border: 1px solid transparent; 
+    padding: 10px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .site-content .sidebar .newsletter {
     padding-top: 10rem;
 }
@@ -401,6 +415,7 @@ main .post-content .post-title a {
     padding: .3rem .5rem;
     font-family: var(--Lexend);
     font-size: 1rem;
+    outline: none;
 }
 
 .site-content .sidebar .newsletter .form-btn {
@@ -408,6 +423,13 @@ main .post-content .post-title a {
     padding: .8rem 32%;
     margin: 1rem 0;
     background: var(--sky);
+    transition: all ease-in-out .3s;
+}
+
+.site-content .sidebar .newsletter .form-btn:hover {
+    background: black;
+    color: white;
+    transition: all ease-in-out .3s;
 }
 
 .site-content .sidebar .popular-tags {

@@ -53,6 +53,14 @@ $(document).ready(function () {
         $("#marine-blog-toggle").fadeToggle();
     })
 
+    //Subscribe form
+    $("#subscribe-success").hide();
+
+    $(".subscribe-form").submit(function (event) {
+        event.preventDefault();
+        $("#subscribe-success").fadeIn();
+    });
+
     // click to scroll top
     $('.move-up span').click(function () {
         $('html, body').animate({
